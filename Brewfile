@@ -1,6 +1,9 @@
 
 # tap repositories and their packages
 
+tap argon/mas
+brew mas
+
 tap aspnet/dnx
 brew dnvm
 
@@ -8,7 +11,6 @@ tap caskroom/cask
 cask dash
 cask dropbox
 cask firefox
-cask google-chrome
 cask google-japanese-ime
 cask iterm2
 cask java
@@ -19,6 +21,8 @@ cask sourcetree
 cask vagrant
 cask virtualbox
 cask visual-studio-code
+
+tap caskroom/cask
 
 tap homebrew/brewdler
 
@@ -36,6 +40,7 @@ brew gdbm
 brew gettext
 brew git
 brew giter8
+brew go
 brew gobject-introspection
 brew harfbuzz
 brew highlight
@@ -56,10 +61,15 @@ brew mono
 brew openssl
 brew pango
 brew pcre
+brew peco
 brew pixman
 brew pkg-config
+brew postgresql
+brew python
 brew rbenv
 brew readline
+brew reattach-to-user-namespace
+brew redis
 brew ruby-build
 brew sbt
 brew scala
@@ -76,26 +86,18 @@ brew brew-file
 tap sanemat/font
 brew ricty
 
-tap argon/mas
-brew mas
-
 # Other Homebrew packages
 brew glib
 brew hub
 brew mariadb
 brew typesafe-activator
 
-# Below applications were installed by Cask,
-# but do not have corresponding casks.
-
-#cask kobito (!)
-
 # App Store applications
 appstore 682658836 GarageBand
 appstore 478844335 Janetter
 appstore 409183694 Keynote
 appstore 414030210 LimeChat
-appstore 715768417 MicrosoftRemoteDesktop
+appstore 715768417 Microsoft Remote Desktop
 appstore 409203825 Numbers
 appstore 409201541 Pages
 appstore 715768417 Remote Desktop Connection
